@@ -35,7 +35,7 @@
 						<muleVersion>${app.runtime}</muleVersion>
 						<username>josnavidevara123</username>
 						<password>Divakar@14377</password>
-						<applicationName>welcome-to-mulesoft</applicationName>
+						<applicationName>cloud-deployment</applicationName>
 						<environment>Sandbox</environment>
 				<!--  	<region>${region}</region> -->
 						<workers>1</workers>
