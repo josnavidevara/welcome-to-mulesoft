@@ -32,13 +32,13 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<muleVersion>4.3.0</muleVersion>
-						<username>josnavidevara123</username>
-						<password>Divakar@14377</password>
+						<muleVersion>${muleVersion}</muleVersion>
+						<username>${username}</username>
+						<password>${password}</password>
 						<applicationName>welcome-to-mulesoft2</applicationName>
-						<environment>Sandbox</environment>
+						<environment>${environment}</environment>
 				<!--  	<region>${region}</region> -->
-						<workers>1</workers>
+						<workers>${workers}</workers>
 						<workerType>Micro</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
